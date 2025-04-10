@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "modelo_ram_app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "modelo_ram_app.py"
+    }
+  ]
+}
