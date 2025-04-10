@@ -31,3 +31,4 @@ ax.grid(True)
 ax.legend()
 
 st.pyplot(fig)
+
